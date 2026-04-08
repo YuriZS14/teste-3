@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Saúde - Vale do Paraíba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1><img src="Busca por farmácias no Vale (1).png" alt=""></h1>
+    <h2>Portal de Saúde</h2>
+    <p>Farmácias Populares - Vale do Paraíba</p>
+</header>
+
+<!-- BREADCRUMB -->
+<nav class="breadcrumb">
+    <span id="bc-inicio">Início</span>
+    <span id="bc-cidade"></span>
+</nav>
+
+<main>
+
+    <!-- BUSCA -->
+    <section class="busca">
+        <div class="autocomplete">
+            <input type="text" id="pesquisa" placeholder="Buscar por cidade...">
+            <div id="sugestoes" class="sugestoes"></div>
+        </div>
+    </section>
+
+    <!-- CONTEÚDO -->
+    <section class="grid">
+
+        <div class="card">
+            <h2>Farmácias</h2>
+            <div id="farmacias"></div>
+        </div>
+
+        <div class="card">
+            <h2>Campanhas de Saúde</h2>
+            <div id="eventos"></div>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 - Projeto TCC | Acesso à saúde para todos</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
